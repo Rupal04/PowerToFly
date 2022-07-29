@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+DEFAULT_PAGE_SIZE = 10
 
 # Application definition
 
