@@ -2,6 +2,12 @@ from rest_framework.pagination import PageNumberPagination
 
 from powertofly.settings import DEFAULT_PAGE_SIZE
 
+
+"""
+The Custom Pagination class that is used for showing the pagination implementation 
+"""
+
+
 class CustomPageNumberPagination(PageNumberPagination):
     page_query_param = 'page'
     page_size = DEFAULT_PAGE_SIZE
