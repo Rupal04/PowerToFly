@@ -1,3 +1,4 @@
 *.pid
 *.stat
 data/
+venv/
